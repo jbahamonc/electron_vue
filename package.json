@@ -4,12 +4,18 @@
   "description": "Proyecto de prueba realizado con electron y vue.js",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron .",
+    "sass": "node-sass -w ./sass/ -o ./css/"
   },
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/jbahamonc/electron_vue.git"
+    "url": "https://github.com/jbahamonc/electron_vue.git"
   },
   "author": "Jefferson Bahamon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {}
 }
